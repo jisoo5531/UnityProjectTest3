@@ -156,6 +156,7 @@ public partial class BackEndMatchManager : MonoBehaviour
                 }
                 Debug.Log("ai정보 송신 : " + (int)tmp.Key);
                 SendDataToInGame(new Protocol.AIPlayerInfo(tmp.Value));
+                
             }
         }
 
